@@ -1,0 +1,78 @@
+body {
+  font-family: Roboto;
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  border-radius: 20px;
+  align-items: center;
+  box-shadow: 0 0 12px rgb(222, 226, 229);
+  background-color: rgba(195, 228, 255, 0.793);
+}
+.container {
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.value {
+  margin: 60px 0;
+  font-size: 70px;
+}
+.btn-container {
+  display: flex;
+}
+
+button {
+  box-shadow: 0 0 15px rgb(208, 208, 208);
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  background-color: transparent;
+}
+.increase {
+  border: 2px solid rgb(10, 202, 10);
+  color: rgb(10, 202, 10);
+  cursor: pointer;
+}
+
+.decrease {
+  border: 2px solid rgb(233, 75, 75);
+  color: rgb(233, 75, 75);
+  cursor: pointer;
+}
+
+.reset {
+  border: 2px solid rgb(255, 178, 35);
+  cursor: pointer;
+  color: rgb(255, 178, 35);
+}
+
+button:hover {
+  color: white;
+}
+.increase:hover {
+  background-color: rgb(10, 202, 10);
+}
+.decrease:hover {
+  background-color: rgb(233, 75, 75);
+}
+.reset:hover {
+  background-color: rgb(255, 178, 35);
+}
